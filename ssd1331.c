@@ -58,6 +58,10 @@ void ssd1331_init() {
     //0xAF - set display on
     uint8_t cmd[3] = {0xAE, 0xA4, 0xAF};
     ssd1331_send_many_cmd(cmd, 3);
+
+    //set remap to smth normal
+    ssd1331_send_cmd(0xA0);
+    ssd1331_send_cmd(0x72);
 }
 
 //function sends 1 byte of data
