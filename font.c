@@ -21,9 +21,9 @@ typedef struct
 } font_char;
 
 
-font_char font_defaultTemplate[26] = {
+font_char font_defaultTemplate[93] = {
     {
-        .name = 'a',
+        .name = 'A',
         .width = 4,
         .body = {
             0b00001111,
@@ -35,7 +35,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'b',
+        .name = 'B',
         .width = 4,
         .body = {
             0b00001110,
@@ -47,7 +47,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'c',
+        .name = 'C',
         .width = 3,
         .body = {
             0b00000111,
@@ -59,7 +59,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'd',
+        .name = 'D',
         .width = 4,
         .body = {
             0b00001110,
@@ -71,7 +71,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'e',
+        .name = 'E',
         .width = 3,
         .body = {
             0b00000111,
@@ -83,7 +83,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'f',
+        .name = 'F',
         .width = 3,
         .body = {
             0b00000111,
@@ -95,7 +95,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'g',
+        .name = 'G',
         .width = 5,
         .body = {
             0b00011111,
@@ -107,7 +107,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'h',
+        .name = 'H',
         .width = 4,
         .body = {
             0b00001001,
@@ -119,7 +119,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'i',
+        .name = 'I',
         .width = 1,
         .body = {
             0b00000001,
@@ -131,7 +131,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'j',
+        .name = 'J',
         .width = 4,
         .body = {
             0b00000001,
@@ -143,7 +143,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'k',
+        .name = 'K',
         .width = 4,
         .body = {
             0b00001001,
@@ -155,7 +155,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'l',
+        .name = 'L',
         .width = 3,
         .body = {
             0b00000100,
@@ -167,31 +167,31 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'm',
-        .width = 7,
+        .name = 'M',
+        .width = 5,
         .body = {
-            0b01100011,
-            0b01010101,
-            0b01001001,
-            0b01000001,
-            0b01000001,
+            0b00010001,
+            0b00011011,
+            0b00010101,
+            0b00010001,
+            0b00010001,
             0,0,0
         }
     },
     {
-        .name = 'n',
-        .width = 7,
+        .name = 'N',
+        .width = 5,
         .body = {
-            0b01100001,
-            0b01010001,
-            0b01001001,
-            0b01000101,
-            0b01000011,
+            0b00010001,
+            0b00011001,
+            0b00010101,
+            0b00010011,
+            0b00010001,
             0,0,0
         }
     },
     {
-        .name = 'o',
+        .name = 'O',
         .width = 4,
         .body = {
             0b00000110,
@@ -203,7 +203,7 @@ font_char font_defaultTemplate[26] = {
         },
     },
     {
-        .name = 'p',
+        .name = 'P',
         .width = 4,
         .body = {
             0b00001110,
@@ -215,7 +215,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'r',
+        .name = 'R',
         .width = 5,
         .body = {
             0b00011110,
@@ -227,7 +227,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 's',
+        .name = 'S',
         .width = 4,
         .body = {
             0b00001111,
@@ -239,7 +239,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 't',
+        .name = 'T',
         .width = 5,
         .body = {
             0b00011111,
@@ -251,7 +251,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'u',
+        .name = 'U',
         .width = 4,
         .body = {
             0b00001001,
@@ -263,19 +263,19 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'w',
-        .width = 7,
+        .name = 'W',
+        .width = 5,
         .body = {
-            0b01000001,
-            0b01000001,
-            0b01001001,
-            0b01010101,
-            0b01100011,
+            0b00010001,
+            0b00010001,
+            0b00010101,
+            0b00011011,
+            0b00010001,
             0,0,0
         }
     },
     {
-        .name = 'y',
+        .name = 'Y',
         .width = 5,
         .body = {
             0b00010001,
@@ -287,7 +287,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'z',
+        .name = 'Z',
         .width = 5,
         .body = {
             0b00011111,
@@ -299,7 +299,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'q',
+        .name = 'Q',
         .width = 5,
         .body = {
             0b00011111,
@@ -311,7 +311,7 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'x',
+        .name = 'X',
         .width = 5,
         .body = {
             0b00010001,
@@ -323,21 +323,825 @@ font_char font_defaultTemplate[26] = {
         }
     },
     {
-        .name = 'v',
-        .width = 7,
+        .name = 'V',
+        .width = 5,
         .body = {
-            0b01000001,
-            0b01000001,
-            0b00100010,
-            0b00010100,
+            0b00010001,
+            0b00010001,
+            0b00010001,
+            0b00001010,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = 'a',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000111,
+            0b00000001,
+            0b00000111,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'b',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000100,
+            0b00000110,
+            0b00000101,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'c',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000011,
+            0b00000100,
+            0b00000100,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'd',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000001,
+            0b00000011,
+            0b00000101,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'e',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000011,
+            0b00000111,
+            0b00000100,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'f',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000011,
+            0b00000010,
+            0b00000111,
+            0b00000010,
+            0,0,0
+        }
+    },
+    {
+        .name = 'g',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000111,
+            0b00000111,
+            0b00000001,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'h',
+        .width = 4,
+        .body = {
+            0b00000000,
             0b00001000,
+            0b00001110,
+            0b00001001,
+            0b00001001,
+            0,0,0
+        }
+    },
+    {
+        .name = 'i',
+        .width = 1,
+        .body = {
+            0b00000000,
+            0b00000001,
+            0b00000000,
+            0b00000001,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = 'j',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000001,
+            0b00000001,
+            0b00000101,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'k',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000100,
+            0b00000101,
+            0b00000110,
+            0b00000101,
+            0,0,0
+        }
+    },
+    {
+        .name = 'l',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000010,
+            0b00000010,
+            0b00000010,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'm',
+        .width = 5,
+        .body = {
+            0b00000000,
+            0b00001111,
+            0b00010101,
+            0b00010101,
+            0b00010101,
+            0,0,0
+        }
+    },
+    {
+        .name = 'n',
+        .width = 4,
+        .body = {
+            0b00000000,
+            0b00001011,
+            0b00001101,
+            0b00001001,
+            0b00001001,
+            0,0,0
+        }
+    },
+    {
+        .name = 'o',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000010,
+            0b00000101,
+            0b00000101,
+            0b00000010,
+            0,0,0
+        },
+    },
+    {
+        .name = 'p',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000111,
+            0b00000101,
+            0b00000110,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = 'r',
+        .width = 5,
+        .body = {
+            0b00000000,
+            0b00001011,
+            0b00001100,
+            0b00001000,
+            0b00001000,
+            0,0,0
+        }
+    },
+    {
+        .name = 's',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000011,
+            0b00000100,
+            0b00000011,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = 't',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000010,
+            0b00000111,
+            0b00000010,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'u',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000101,
+            0b00000101,
+            0b00000101,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'w',
+        .width = 5,
+        .body = {
+            0b00000000,
+            0b00010001,
+            0b00010101,
+            0b00010101,
+            0b00001111,
+            0,0,0
+        }
+    },
+    {
+        .name = 'y',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000101,
+            0b00000101,
+            0b00000010,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = 'z',
+        .width = 2,
+        .body = {
+            0b00000000,
+            0b00000011,
+            0b00000001,
+            0b00000010,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = 'q',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000111,
+            0b00000101,
+            0b00000011,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = 'x',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000101,
+            0b00000010,
+            0b00000010,
+            0b00000101,
+            0,0,0
+        }
+    },
+    {
+        .name = 'v',
+        .width = 5,
+        .body = {
+            0b00000000,
+            0b00010001,
+            0b00010001,
+            0b00001010,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = '1',
+        .width = 3,
+        .body = {
+            0b00000010,
+            0b00000110,
+            0b00000010,
+            0b00000010,
+            0b00000111,
+            0,0,0
+        }
+    },
+    {
+        .name = '2',
+        .width = 4,
+        .body = {
+            0b00000110,
+            0b00001001,
+            0b00000010,
+            0b00000100,
+            0b00001111,
+            0,0,0
+        }
+    },
+    {
+        .name = '3',
+        .width = 3,
+        .body = {
+            0b00000110,
+            0b00000001,
+            0b00000110,
+            0b00000001,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = '4',
+        .width = 4,
+        .body = {
+            0b00000110,
+            0b00001010,
+            0b00001111,
+            0b00000010,
+            0b00000010,
+            0,0,0
+        }
+    },
+    {
+        .name = '5',
+        .width = 4,
+        .body = {
+            0b00000111,
+            0b00000100,
+            0b00000110,
+            0b00000001,
+            0b00001110,
+            0,0,0
+        }
+    },
+    {
+        .name = '6',
+        .width = 4,
+        .body = {
+            0b00000111,
+            0b00001000,
+            0b00001110,
+            0b00001001,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = '7',
+        .width = 4,
+        .body = {
+            0b00001111,
+            0b00000001,
+            0b00000010,
+            0b00000010,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = '8',
+        .width = 4,
+        .body = {
+            0b00000110,
+            0b00001001,
+            0b00000110,
+            0b00001001,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = '9',
+        .width = 4,
+        .body = {
+            0b00000110,
+            0b00001001,
+            0b00000111,
+            0b00000001,
+            0b00001110,
+            0,0,0
+        }
+    },
+    {
+        .name = '0',
+        .width = 5,
+        .body = {
+            0b00000110,
+            0b00001011,
+            0b00001101,
+            0b00001101,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = '!',
+        .width = 1,
+        .body = {
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0b00000000,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = '@',
+        .width = 5,
+        .body = {
+            0b00001110,
+            0b00010001,
+            0b00010110,
+            0b00010000,
+            0b00001111,
+            0,0,0
+        }
+    },
+    {
+        .name = '#',
+        .width = 5,
+        .body = {
+            0b00001010,
+            0b00011111,
+            0b00001010,
+            0b00011111,
+            0b00001010,
+            0,0,0
+        }
+    },
+    {
+        .name = '$',
+        .width = 4,
+        .body = {
+            0b00000100,
+            0b00001111,
+            0b00001110,
+            0b00000101,
+            0b00001110,
+            0,0,0
+        }
+    },
+    {
+        .name = '%',
+        .width = 5,
+        .body = {
+            0b00011001,
+            0b00011010,
+            0b00000100,
+            0b00001011,
+            0b00010011,
+            0,0,0
+        }
+    },
+    {
+        .name = '^',
+        .width = 3,
+        .body = {
+            0b00000010,
+            0b00000101,
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '&',
+        .width = 5,
+        .body = {
+            0b00001000,
+            0b00010100,
+            0b00001001,
+            0b00010110,
+            0b00001001,
+            0,0,0
+        }
+    },
+    {
+        .name = '*',
+        .width = 5,
+        .body = {
+            0b00000100,
+            0b00010101,
+            0b00001110,
+            0b00010101,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = '(',
+        .width = 2,
+        .body = {
+            0b00000001,
+            0b00000010,
+            0b00000010,
+            0b00000010,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = ')',
+        .width = 2,
+        .body = {
+            0b00000010,
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0b00000010,
+            0,0,0
+        }
+    },
+    {
+        .name = '+',
+        .width = 5,
+        .body = {
+            0b00000100,
+            0b00000100,
+            0b00011111,
+            0b00000100,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = '-',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000000,
+            0b00000111,
+            0b00000000,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '=',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000111,
+            0b00000000,
+            0b00000111,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '~',
+        .width = 4,
+        .body = {
+            0b00000000,
+            0b00000000,
+            0b00001010,
+            0b00000101,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '[',
+        .width = 2,
+        .body = {
+            0b00000011,
+            0b00000010,
+            0b00000010,
+            0b00000010,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = ']',
+        .width = 2,
+        .body = {
+            0b00000011,
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = '{',
+        .width = 3,
+        .body = {
+            0b00000011,
+            0b00000010,
+            0b00000110,
+            0b00000010,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = '}',
+        .width = 3,
+        .body = {
+            0b00000110,
+            0b00000010,
+            0b00000011,
+            0b00000010,
+            0b00000110,
+            0,0,0
+        }
+    },
+    {
+        .name = '<',
+        .width = 3,
+        .body = {
+            0b00000001,
+            0b00000010,
+            0b00000100,
+            0b00000010,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = '>',
+        .width = 3,
+        .body = {
+            0b00000100,
+            0b00000010,
+            0b00000001,
+            0b00000010,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = ':',
+        .width = 1,
+        .body = {
+            0b00000000,
+            0b00000001,
+            0b00000000,
+            0b00000001,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = ';',
+        .width = 2,
+        .body = {
+            0b00000000,
+            0b00000001,
+            0b00000000,
+            0b00000001,
+            0b00000010,
+            0,0,0
+        }
+    },
+    {
+        .name = '?',
+        .width = 3,
+        .body = {
+            0b00000111,
+            0b00000011,
+            0b00000110,
+            0b00000000,
+            0b00000100,
+            0,0,0
+        }
+    },
+    {
+        .name = '.',
+        .width = 2,
+        .body = {
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0b00000011,
+            0b00000011,
+            0,0,0
+        }
+    },
+    {
+        .name = ',',
+        .width = 2,
+        .body = {
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0b00000010,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = '/',
+        .width = 2,
+        .body = {
+            0b00000001,
+            0b00000001,
+            0b00000010,
+            0b00000010,
+            0b00000010,
+            0,0,0
+        }
+    },
+    {
+        .name = '\\',
+        .width = 2,
+        .body = {
+            0b00000010,
+            0b00000010,
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = '\'',
+        .width = 1,
+        .body = {
+            0b00000001,
+            0b00000001,
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '\"',
+        .width = 3,
+        .body = {
+            0b00000101,
+            0b00000101,
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0,0,0
+        }
+    },
+    {
+        .name = '|',
+        .width = 1,
+        .body = {
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0b00000001,
+            0,0,0
+        }
+    },
+    {
+        .name = ' ',
+        .width = 3,
+        .body = {
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0b00000000,
+            0b00000000,
             0,0,0
         }
     }
 };
 
 
-font_font8 font_initialize(font_char* template,uint8_t length,uint8_t height, uint8_t horizontalSpacing, uint8_t verticalSpacing){
+font_font8 font_create(font_char* template,uint8_t length,uint8_t height, uint8_t horizontalSpacing, uint8_t verticalSpacing){
     font_font8 newFont;
     newFont.height = height;
     newFont.horizontalSpacing = horizontalSpacing;
@@ -361,8 +1165,8 @@ font_font8 font_initialize(font_char* template,uint8_t length,uint8_t height, ui
     return newFont;
 }
 
-font_font8 font_initialize_default(){
-    return font_initialize(font_defaultTemplate, 26, 5, 2, 1);
+font_font8 font_create_default(){
+    return font_create(font_defaultTemplate, 93, 5, 2, 1);
 }
 
 void font_write(char* msg, uint8_t anchorX, uint8_t anchorY, font_font8 font, uint16_t color){
@@ -398,5 +1202,30 @@ void font_write(char* msg, uint8_t anchorX, uint8_t anchorY, font_font8 font, ui
         cursorX += (font.charWidthList[index] + font.verticalSpacing);
     }
 }
+
+void font_smart_write(char* msg, uint8_t anchorX, uint8_t anchorY, uint8_t maxwidth, font_font8 font, uint16_t color){
+    uint8_t cursorX = anchorX;
+    uint8_t cursorY = anchorY;
+    char substr[2] = {'\0','\0'};
+    //loop for every character
+    for(int ch=0; msg[ch] != '\0'; ch++){
+        uint8_t index = msg[ch];
+        //check if there is enough space
+        if(cursorX + font.charWidthList[index] > maxwidth+anchorX){
+            cursorX = anchorX;
+            cursorY += (font.height + font.verticalSpacing);
+            //remove space if it's the first character in the new line
+            if(msg[ch]==' '){
+                ch++;
+            }
+        }
+        substr[0] = msg[ch];
+        font_write(substr, cursorX, cursorY, font, color);        
+        //move cursor to new position
+        cursorX += (font.charWidthList[index] + font.verticalSpacing);
+    }
+}
+
+
 
 #endif
